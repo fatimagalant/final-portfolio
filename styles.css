@@ -1,0 +1,171 @@
+/*CSS Reset*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*Navigation Styles*/
+
+.navbar-toggler {
+  margin-right: 10%;
+}
+.offcanvas-header {
+  background-color: #f9f9ed;
+}
+
+/*Home Styles*/
+#home {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  z-index: 100%;
+}
+.row {
+  display: flex;
+}
+.img-fluid {
+  display: flex;
+  width: 400px;
+  height: 600px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#home h1 {
+  font-family: "Telex", sans-serif;
+  padding-bottom: 10px;
+}
+#home h2 {
+  padding-bottom: 30px;
+}
+
+.bold::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  content: "About";
+  font-size: 250px;
+  color: #f0f0f0;
+  font-weight: 700;
+  font-family: "Telex", sans-serif;
+  z-index: -1;
+}
+h2 {
+  font-family: "Telex", sans-serif;
+}
+.col {
+  margin-top: 10%;
+}
+.heading {
+  position: relative;
+  font-size: 14px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+#home info .rotate .heading:after {
+  position: absolute;
+  top: 8px;
+  right: -40px;
+  content: "";
+  background: #000;
+  width: 40px;
+  height: 1px;
+}
+.btn {
+  border-radius: 50%;
+}
+/*Resume Styling*/
+#resume {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  z-index: 100%;
+}
+.heading {
+  position: relative;
+  font-size: 14px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+#resume intro .rotate .heading:after {
+  position: absolute;
+  top: 8px;
+  right: -40px;
+  content: "";
+  background: #000;
+  width: 40px;
+  height: 1px;
+}
+#resume .bold::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  content: "Resume";
+  font-size: 250px;
+  color: #f0f0f0;
+  font-weight: 700;
+  font-family: "Telex", sans-serif;
+  z-index: -1;
+}
+/*Skills Styling*/
+#skills {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+}
+i {
+  width: 100px;
+  height: 100px;
+}
+#skills .bold::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  content: "Skillst";
+  font-size: 250px;
+  color: #f0f0f0;
+  font-weight: 700;
+  font-family: "Telex", sans-serif;
+  z-index: -1;
+}
+/*Projects Styling*/
+#projects {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/*Testimoials Styling*/
+#testimonials {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/*Contact Styling*/
+#contact {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/*Footer Styling*/
+
+/*Media Queries*/
