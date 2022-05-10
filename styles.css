@@ -103,6 +103,12 @@ a {
 #contact .btn {
   padding-top: 20px;
 }
+#home .container {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #d8cfaf;
+  padding: 20px;
+}
 
 /*Resume Styling*/
 #resume {
@@ -172,6 +178,11 @@ ul.timeline > li:before {
   background-color: #413620;
   padding-top: 100px;
 }
+#resume .container {
+  border-radius: 5px;
+  background-color: #d8cfaf;
+}
+
 /*Skills Styling*/
 #skills {
   background-color: white;
@@ -223,6 +234,10 @@ ul.timeline > li:before {
 
 .project {
   position: relative;
+}
+#project .container {
+  border-radius: 5px;
+  background-color: #d8cfaf;
 }
 
 .project-links {
