@@ -28,7 +28,6 @@
 }
 
 img {
-  margin-left: 40%;
   width: 300px;
   height: 300px;
   aspect-ratio: 1;
@@ -43,7 +42,7 @@ img {
 .bold {
   font-family: "Playfair Display", serif;
   font-size: 250px;
-  color: #f0f0f0;
+  color: #cbc9ad;
   font-weight: 60px;
   /* position: absolute;
   left: 0px;
