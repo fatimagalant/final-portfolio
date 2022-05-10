@@ -27,7 +27,7 @@
     <section id="navbar-nav">
       <nav class="navbar navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#index.html"><i class="bi bi-code-slash"></i></a>
+          <a class="navbar-brand" href="#index.html"><i class="fa-duotone fa-f"></i></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -102,18 +102,19 @@
         <div class="row text-center">
             <h2 class="bold">About</h2>
         </div>
+        <span>About Me</span>
         <!-- <h3 class="btext">About me</h3> -->
-        <div class="container">
+       <div class="container">
             <div class="row">
             <div class="col md-5">
     <img src="./images/Copy of Fatima (1).JPG" class="img-fluid" alt="Fatima Galant"></div>
     <div class="col md-6">
-    <h4>Hi, I'm Fatima Galant</h4>
-    <h4>Aspiring Full Stack Developer</h4>
+    <h4>Fatima Galant</h4>
+    <h5>Aspiring Full Stack Developer</h5>
 
     <div class="intro">
     <div class="rotate">
-        <!-- <h3 class="heading">About</h3> -->
+        <h3 class="heading">About</h3>
 
     </div>
     </div>
@@ -133,7 +134,7 @@
     <section id="resume">
       <div class="row text-center">
         <h2 class="bold">Resume</h2>
-    </div>
+      </div>
         <div class="container">
         <!-- <div class="row text-center">
             <h2 class="bold">Resume</h2>
@@ -282,27 +283,144 @@
     
         </div>
         </div>
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="project">
-              <img class="img-fluid" src="./images/holiday.jpg" />
-              <div class="project-links">
-                <a href="https://www.myholidaydestination.netlify.app" target="_blank" class="btn btn-light" style="width:50%; height:20%;"><i class="bi bi-laptop"></i></a><a href="https://www.github.com/fatimagalant/holiday" target="_blank" class="btn btn-light" style="width:50%; height:20% ;"><i class="bi bi-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <img class="img-fluid" src="./images/calculator.jpg" />
-              <div class="project-links">
-                <a href="https://www.flexboxcalculator.netlify.app" target="_blank" class="btn btn-light" style="width:20%; height:20%;"><i class="bi bi-laptop"></i></a>
-                <a href="https://www.github.com/fatimagalant/calculator" target="_blank" class="btn btn-light" style="width:20%; height:20%;"><i class="bi bi-github"></i></a>
-              </div>
-            </div>
-          </div>
+      <div class="container">
+        <div class="projects-container">
+          <div class="col md-4">
+          <img src="./images/holiday.jpg" class="img-fluid" alt="My Holiday Destination"  data-bs-toggle="modal" data-bs-target="#Project1"></div>
+          <div class="col md-4">
+          <img src="./images/calculator.jpg" class="img-fluid" alt="Flexbox Calculator"  data-bs-toggle="modal" data-bs-target="#Project2"></div>
+          <div class="col md-4">
+          <img src="./images/restaurant (2).jpg" class="img-fluid" alt="Restaurantlie"  data-bs-toggle="modal" data-bs-target="#Project3"></div>
         </div>
       </div>
+
+      <!-- Project 1 Modal -->
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#Project1">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Project1" tabindex="-1" aria-labelledby="Project1Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Project1Label">My Holiday Destination</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid" src="./images/holiday.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                  <h4>Project 1</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eveniet facere officiis, impedit esse fugit reprehenderit
+                    sit, nostrum possimus veritatis quisquam harum quas quo
+                    rerum beatae obcaecati qui, ex ipsam doloribus asperiores
+                    nemo dolorem. Sunt labore repudiandae praesentium eveniet
+                    adipisci corporis ipsa. Iure natus molestias laudantium
+                    optio recusandae, similique facere omnis!
+                  </p>
+                  </div>
+                  </div>
+                  </div> 
+                </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Project 2 Modal -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#Project2">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Project2" tabindex="-1" aria-labelledby="Proect2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Project2Label">Flexbox Calculator</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid" src="./images/calculator.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                  <h4>Project 1</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eveniet facere officiis, impedit esse fugit reprehenderit
+                    sit, nostrum possimus veritatis quisquam harum quas quo
+                    rerum beatae obcaecati qui, ex ipsam doloribus asperiores
+                    nemo dolorem. Sunt labore repudiandae praesentium eveniet
+                    adipisci corporis ipsa. Iure natus molestias laudantium
+                    optio recusandae, similique facere omnis!
+                  </p>
+                  </div>
+                  </div>
+                  </div> 
+                </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="https://flexboxcalculator.netlify.app" target="_blank" type="button" class="btn btn-dark">Live</a>
+        <a href="https://www.github.com/fatimagalant/calculator" target="_blank" type="button" class="btn btn-dark">Github</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#Project3">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Project3" tabindex="-1" aria-labelledby="Project3Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Project3Label">Restaurant</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="img-fluid" src="./images/restaurant (2).jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                  <h4>Project 3</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eveniet facere officiis, impedit esse fugit reprehenderit
+                    sit, nostrum possimus veritatis quisquam harum quas quo
+                    rerum beatae obcaecati qui, ex ipsam doloribus asperiores
+                    nemo dolorem. Sunt labore repudiandae praesentium eveniet
+                    adipisci corporis ipsa. Iure natus molestias laudantium
+                    optio recusandae, similique facere omnis!
+                  </p>
+                  </div>
+                  </div>
+                  </div> 
+                </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     </section>
     <!-- Project Section End -->
 
@@ -347,15 +465,44 @@
 
     <!-- Contact Section Start -->
     <section id="contact">
+      <div class="container">
+        <div class="col md-4">
+          <div class="row">
+      <i class="fa-duotone fa-location-dot">Southern Suburbs, Cape Town, SA</i></div>
+       <div class="row">
+      <i class="fa-light fa-mobile">(+27) 66 209 1181</i></div>
+       <div class="row">
+      <i class="fa-light fa-envelope">fatimagalant03@gmail.com</i></div>
+      </div>
+      </div>
       <div class="row text-center">
         <h2 class="bold">Contact</h2>
     </div>
       <div class="intro">
         <div class="rotate">
             <h3 class="heading">Contact Me</h3>
-    
-        </div>
-        </div>
+         <span>Contact</span>
+     <div class="container">
+  <form action="https://formspree.io/f/xwkyavoj"
+  method="POST">
+
+  <div class="row">
+  <div class="col">
+    <label for="yname"></label>
+    <input type="text" id="yname" name="name" placeholder="Your name">
+    </div>
+    <div class="col">
+    <label for="email"></label>
+    <input type="email" id="email" name="email" placeholder="Your email">
+   </div>
+   </div>
+    <label for="message"></label>
+    <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+
+    <input type="submit" class="btn-dark" value="Submit">
+  </form>
+</div>
+        
     </section>
     <!-- Contact Section End -->
      
