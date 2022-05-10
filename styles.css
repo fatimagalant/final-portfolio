@@ -272,7 +272,13 @@ div.container {
   background-position: center;
   min-height: 100vh;
 }
+.row {
+  display: flex;
+}
 
+.column {
+  flex: 50%;
+}
 input[type="text"],
 select,
 textarea {
@@ -309,7 +315,8 @@ input[type="submit"]:hover {
   background-color: #9e9885;
 }
 
-.container {
+#contact .container {
+  width: 50%;
   border-radius: 5px;
   background-color: #d8cfaf;
   padding: 20px;
