@@ -26,6 +26,8 @@
   background-position: center;
   min-height: 100vh;
   z-index: 100%;
+  font-family: "Karla", sans-serif;
+  font-weight: 200px;
 }
 .row {
   display: flex;
@@ -121,6 +123,8 @@ a {
   background-position: center;
   min-height: 100vh;
   z-index: 100%;
+  font-family: "Karla", sans-serif;
+  font-weight: 200px;
 }
 .heading {
   position: relative;
@@ -199,6 +203,8 @@ ul.timeline > li:before {
   flex-direction: column;
   text-align: center;
   align-items: stretch;
+  font-family: "Karla", sans-serif;
+  font-weight: 200px;
 }
 
 #skills h2 {
@@ -233,6 +239,8 @@ ul.timeline > li:before {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  font-family: "Karla", sans-serif;
+  font-weight: 200px;
 }
 
 .project {
@@ -276,6 +284,8 @@ ul.timeline > li:before {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  font-family: "Karla", sans-serif;
+  font-weight: 200px;
 }
 
 div.container {
@@ -289,6 +299,8 @@ div.container {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  font-family: "Karla", sans-serif;
+  font-weight: 200px;
 }
 .row {
   display: flex;
