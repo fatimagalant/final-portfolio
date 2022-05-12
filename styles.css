@@ -210,8 +210,7 @@ ul.timeline > li:before {
   gap: 30px;
   justify-content: space-between;
 }
-
-.card {
+.skills-container .card {
   box-shadow: 1px 1px 10px #6e8387;
   padding: 20px;
   width: 30%;
@@ -221,7 +220,7 @@ ul.timeline > li:before {
   font-size: 60px;
 }
 .card:hover {
-  color: #f0f0f0;
+  color: #d8cfaf;
 }
 
 /*Projects Styling*/
