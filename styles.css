@@ -9,8 +9,9 @@
   --off-white: #f0f0f0;
   --off-off-white: #d6d1cd;
 }
-#home, #resume, #skills, #projects, #testimonials, #contact{
-  padding:20%, 20%, 20%, 20%;
+#home, #resume, #skills, #projects, #contact{
+  padding-left:25%;
+  padding-right:25%;
 }
 /*Navigation Styles*/
 
