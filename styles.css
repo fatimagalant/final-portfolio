@@ -117,7 +117,7 @@ a {
 #contact .btn {
   padding-top: 20px;
 }
-#home .container {
+#home .container-fluid {
   width: 50%;
   border-radius: 5px;
   background-color: #f0f0f0;
