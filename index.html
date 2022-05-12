@@ -11,6 +11,7 @@
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
       <!-- AOS -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <!-- Font Awesome -->
@@ -22,7 +23,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC:wght@700&display=swap');
       </style>
 <!-- Owl Carousel -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
       <!-- Navbar Section Start -->
@@ -245,7 +246,6 @@
           </div>
         </div>
       </div>
-    </div>
     </section>
     <!-- Resume Section End -->
 
@@ -439,48 +439,46 @@
       <div class="intro">
         <div class="rotate">
             <h3 class="heading">Testimonials</h3>
-            <!-- <div id="testimonialSlider" class="carousel carousel-dark slide" data-bs-ride="carousel"> -->
-              <div id="testimonialSlider" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item pb-5 text-center active">
-                  <img src="./images/Zoe (1).jpg" class="rounded-circle mb-5" alt="Zoe Van Der Schyff">
-                    <h5>Zoe Van Der Schyff, Peer</h5>
-                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores, rem at ea sed soluta adipisci ducimus eum aliquid et, excepturi, optio necessitatibus eveniet atque"</p>
-                  </div>
-                </div>
-                <div class="carousel-item pb-5 text-center">
-                  <img src="./images/Ricardo (3).jpg" class="rounded-circle mb-5" alt="Ricardo Moses">
-                    <h5>Ricardo Ronan Moses, Peer</h5>
-                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique explicabo minima odit, nulla alias esse sed earum distinctio rerum ut"</p>
-                  </div>
-                </div>
-                <div class="carousel-item pb-5 text-center">
-                  <img src="./images/Natheerah (3).jpg" class="rounded-circle mb-5" alt="Natheerah Abrahams">
-                    <h5>Natheerah Abrahams, Peer</h5>
-                    <p>"Fatima Galant is very dedicated and striving. She is also independent and would always figure out on her own how to do things."</p>
-                  </div>
-                </div>
-              </div>
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item pb-5 text-center active" data-bs-interval="6000">
+      <img src="./images/Zoe (1).jpg" class="rounded-circle mb-5" alt="Zoe Van Der Schyff">
+      <h5>Zoe Van Der Schyff - Colleague</h5>
+      <p>Some representative placeholder content for the first slide.</p>
+  
+    </div>
+    <div class="carousel-item pb-5 text-center" data-bs-interval="5000">
+      <img src="./images/Ricardo (3).jpg" class="rounded-circle mb-5" alt="Ricardo Ronan Moses">
+      <h5>Ricardo Ronan Moses - Colleague</h5>
+      <p>Some representative placeholder content for the second slide.</p>
+    
+    </div>
+    <div class="carousel-item pb-5 text-center" data-bs-interval="3000">
+      <img src="./images/Natheerah (3).jpg" class="rounded-circle mb-5"alt="Natheerah Abrahams">
+      <h5>Natheerah Abrahams - Colleague</h5>
+      <p>"Fatima is very dedicated and striving. She is also independent and would always figure out on her own how to do things."</p>
+    
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     </section>
     <!-- Testimonials Section End -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="bg-light">
-      <div class="row">
-        <div class="col md-4">
-          <div class="row">
-      <i class="fa-duotone fa-location-dot">Southern Suburbs, Cape Town, SA</i></div>
-       <div class="row">
-      <i class="fa-light fa-mobile">(+27) 66 209 1181</i></div>
-       <div class="row">
-      <i class="fa-light fa-envelope">fatimagalant03@gmail.com</i></div>
-      </div>
-      </div>
       <div class="row text-center">
         <h2 class="bold">Contact</h2>
         <span>Contact</span>
@@ -488,6 +486,18 @@
       <div class="intro">
         <div class="rotate">
             <h3 class="heading">Contact Me</h3>
+      </div>
+      </div>
+         <div class="container">
+      <div class="row">
+        <div class="col md-4">
+          <div class="row">
+      <i class="bi bi-geo-alt-fill">Southern Suburbs, Cape Town, SA</i></div>
+       <div class="row">
+      <i class="bi bi-phone-fill">(+27) 66 209 1181</i></div>
+       <div class="row">
+      <i class="bi bi-envelope-fill">fatimagalant03@gmail.com</i></div>
+      </div>
       </div>
       </div>
      <div class="container">
@@ -523,8 +533,7 @@
     </section>
     <!-- Contact Section End -->
      
-    <!-- Footer Section Start -->
-    <section id="footer">
+    <!-- Footer Start -->
        <footer id="Footer" class="text-center py-4 bg-dark text-light">
       <div class="container">
         <div class="Copyright">
@@ -537,8 +546,7 @@
         <div class="Credits">Designed by Fatima Galant</div>
       </div>
     </footer>
-    </section>
-    <!-- Footer Section End -->
+    <!-- Footer End -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

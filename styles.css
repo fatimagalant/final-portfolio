@@ -154,7 +154,7 @@ ul.timeline {
 }
 ul.timeline:before {
   content: " ";
-  background: #444444;
+  background: #000;
   display: inline-block;
   position: absolute;
   left: 29px;
@@ -168,7 +168,7 @@ ul.timeline > li {
 }
 ul.timeline > li:before {
   content: " ";
-  background: #413620;
+  background: #000;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
@@ -356,14 +356,27 @@ input[type="submit"]:hover {
     display: none;
   }
 }
-@media screen and (max-width: 769) {
+@media screen and (max-width: 769px) {
   .container {
     display: flex;
     width: 50%;
   }
 }
-@media screen and (max-width: 769) {
+@media screen and (max-width: 769px) {
   .col-md {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #home .img-fluid {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .resume-item {
+    display: flex;
+    flex-direction: column;
   }
 }
