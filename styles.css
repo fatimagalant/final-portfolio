@@ -55,7 +55,8 @@
   font-family: "Playfair Display", serif;
   font-size: 250px;
   color: #d6d1cd;
-  font-weight: 60px;
+  font-weight: 60px; 
+  margin-top:30px;
   /* position: absolute;
   left: 0px;
   top: 0px;
@@ -236,9 +237,11 @@ ul.timeline > li:before {
   box-shadow: 1px 1px 10px #6e8387;
   gap: 30px;
   text-align: center;
-  border-radius: 4px;
+  border:none;
 }
-
+.soft-skills-card{
+  border-radius:8px;
+}
 /*Projects Styling*/
 #projects {
   background-color: white;
@@ -289,10 +292,10 @@ ul.timeline > li:before {
 /*Testimoials Styling*/
 #testimonials {
   background: linear-gradient(
-      rgba(113, 146, 113, 0.485),
-      rgba(113, 146, 113, 0.495)
+    rgba(0, 0, 0, 0.242),
+    rgba(0, 0, 0, 0.242)
     ),
-    url(./images/carousel2.jpg);
+    url(./images/carousel3.jpg.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -301,7 +304,7 @@ ul.timeline > li:before {
 
 div.container {
   text-align: center;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 }
 #testimonials img {
   width: 300px;
@@ -393,11 +396,13 @@ footer {
     align-content: center;
   }
 }
-/* @media screen and (max-width: 769px) {
+@media screen and (max-width: 769px) {
   .col-md {
     display: flex;
-  } */
-/* #resume-container {
+  } 
+}
+  @media screen and (max-width:769px){
+  #resume-container {
     width: fit-content;
   }
-} */
+}
