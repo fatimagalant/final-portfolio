@@ -33,7 +33,7 @@
     <section id="navbar-nav">
       <nav class="navbar navbar-light bg-light fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#index.html"><i class="fa-duotone fa-f"></i></a>
+          <a class="navbar-brand" href="#index.html"><img src="./images/logo (2) (1).png" class="img-fluid"></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -157,7 +157,7 @@
           <p class="d-flex justify-content-center">
             Below you will find my education and experience which will be information of benefit to you to get to know about my professioal background. 
           </p>
-        <div class="container mt-5 mb-5">
+        <div id="resume-container" class="container mt-5 mb-5">
           <div class="row">
             <div class="col-md-6">
               <ul class="timeline">
@@ -247,50 +247,71 @@
         </div>
         </div>
        <div class="skills-container">
-         <div class="card bg-dark" data-aos="flip-left">
-          <i class="fa-brands fa-html5"></i>
-          </div>
-         <div class="card bg-dark" data-aos="flip-right">
+         <div class="row">
+           <div class="col-md-4 mt-3">
+           <div class="card bg-dark" data-aos="flip-left">
+             <i class="fa-brands fa-html5"></i>
+               </div>
+            </div>
+            <div class="col-md-4 mt-3">
+            <div class="card bg-dark" data-aos="flip-right">
           <i class="fa-brands fa-css3-alt"></i>
          </div>
+         </div>
+         <div class="col-md-4 mt-3">
          <div class="card bg-dark" data-aos="flip-left">
           <i class="fa-brands fa-bootstrap"></i>
          </div>
         </div>
+        </div>
+        </div>
 
          <span>Soft Skills</span>
     <div class="soft-skills-container">
-    <div class="card">
-  <div class="card-body bg-dark" data-aos="flip-up">
-   Teamwork and Collaboration
-  </div>
-</div>
-<div class="card">
-  <div class="card-body  bg-dark" data-aos="flip-down">
-   Responsibility
-  </div>
-</div>
-<div class="card">
-  <div class="card-body bg-dark" data-aos="flip-up">
-    Time Management
-  </div>
-</div>
-<div class="card">
-  <div class="card-body bg-dark" data-aos="flip-down">
-    Organisation
-  </div>
-</div>
-<div class="card">
-  <div class="card-body bg-dark" data-aos="flip-up">
-    Agile-Thinking
-  </div>
-</div>
-<div class="card">
-  <div class="card-body bg-dark" data-aos="flip-down">
-    Problem Solving
-  </div>
-</div>
-</div>
+      <div class="row">
+        <div class="col-md-4 mt-3">
+        <div class="card text-center">
+        <div class="card-body bg-dark" data-aos="flip-up">
+         Teamwork and Collaboration
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card text-center">
+            <div class="card-body  bg-dark" data-aos="flip-down">
+              Responsibility
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3">
+          <div class="card text-center">
+            <div class="card-body bg-dark" data-aos="flip-up">
+              Time Management
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card text-center">
+            <div class="card-body bg-dark" data-aos="flip-down">
+              Organisation
+            </div>
+         </div> 
+        </div>
+        <div class="col-md-4 mt-3">
+        <div class="card text-center">
+          <div class="card-body bg-dark" data-aos="flip-up">
+            Agile-Thinking
+          </div>
+         </div> 
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card text-center">
+            <div class="card-body bg-dark" data-aos="flip-down">
+              Problem Solving
+            </div>
+          </div>
+        </div>
+
     </section>
     <!-- Skills Section End -->
 
@@ -308,13 +329,15 @@
         </div>
       <div class="container">
         <div class="projects-container">
-          <div class="col md-4">
-          <img src="./images/holiday.jpg" class="img-fluid" alt="My Holiday Destination"  data-aos="zoom-in"  data-bs-toggle="modal" data-bs-target="#Project1"></div>
-          <div class="col md-4">
-          <img src="./images/calculator.jpg" class="img-fluid" alt="Flexbox Calculator" data-aos="zoom-in" data-bs-toggle="modal" data-bs-target="#Project2"></div>
-          <div class="col md-4">
-          <img src="./images/restaurant (2).jpg" class="img-fluid" alt="Restaurantlie" data-aos="zoom-in" data-bs-toggle="modal" data-bs-target="#Project3"></div>
-        </div>
+          <div class="row pb-5">
+            <div class="col-md-4">
+            <img src="./images/holiday.jpg" class="img-fluid" alt="My Holiday Destination"  data-aos="zoom-in"  data-bs-toggle="modal" data-bs-target="#Project1"></div>
+            <div class="col-md-4">
+            <img src="./images/calculator.jpg" class="img-fluid" alt="Flexbox Calculator" data-aos="zoom-in" data-bs-toggle="modal" data-bs-target="#Project2"></div>
+            <div class="col-md-4">
+            <img src="./images/restaurant (2).jpg" class="img-fluid" alt="Restaurantlie" data-aos="zoom-in" data-bs-toggle="modal" data-bs-target="#Project3"></div>
+          </div>
+          </div>
       </div>
 
       <!-- Project 1 Modal -->
@@ -326,7 +349,7 @@
 <!-- Modal -->
 <div class="modal fade" id="Project1" tabindex="-1" aria-labelledby="Project1Label" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content bg-secondary text-light">
       <div class="modal-header">
         <h5 class="modal-title" id="Project1Label">My Holiday Destination</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -348,7 +371,7 @@
                   </div> 
                 </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
         <a href="https://myholidaydestination.netlify.app" target="_blank" type="button" class="btn btn-dark">Live</a>
         <a href="https://www.github.com/fatimagalant/holiday" target="_blank" type="button" class="btn btn-dark">Github</a>
       </div>
@@ -364,7 +387,7 @@
 <!-- Modal -->
 <div class="modal fade" id="Project2" tabindex="-1" aria-labelledby="Proect2Label" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content bg-secondary text-light">
       <div class="modal-header">
         <h5 class="modal-title" id="Project2Label">Flexbox Calculator</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -386,7 +409,7 @@
                   </div> 
                 </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
         <a href="https://flexboxcalculator.netlify.app" target="_blank" type="button" class="btn btn-dark">Live</a>
         <a href="https://www.github.com/fatimagalant/calculator" target="_blank" type="button" class="btn btn-dark">Github</a>
       </div>
@@ -401,7 +424,7 @@
 <!-- Modal -->
 <div class="modal fade" id="Project3" tabindex="-1" aria-labelledby="Project3Label" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content bg-secondary text-light">
       <div class="modal-header">
         <h5 class="modal-title" id="Project3Label">Restaurant</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -423,7 +446,7 @@
                   </div> 
                 </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
         <a href="https://restaurantlie.netlify.app" target="_blank" type="button" class="btn btn-dark">Live</a>
         <a href="https://www.github.com/fatimagalant/restaurant" target="_blank" type="button" class="btn btn-dark">Github</a>
       </div>
