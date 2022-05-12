@@ -42,7 +42,7 @@ img {
 .bold {
   font-family: "Playfair Display", serif;
   font-size: 250px;
-  color: #cbc9ad;
+  color: #d6d1cd;
   font-weight: 60px;
   /* position: absolute;
   left: 0px;
@@ -180,7 +180,7 @@ ul.timeline > li:before {
 }
 #resume .container {
   border-radius: 5px;
-  background-color: #d8cfaf;
+  background-color: #f0f0f0;
 }
 
 /*Skills Styling*/
@@ -220,7 +220,7 @@ ul.timeline > li:before {
   font-size: 60px;
 }
 .card:hover {
-  color: #d8cfaf;
+  color: #f0f0f0;
 }
 
 /*Projects Styling*/
@@ -332,7 +332,7 @@ input[type="submit"]:hover {
 #contact .container {
   width: 50%;
   border-radius: 5px;
-  background-color: #b3c0a4;
+  background-color: #d6d1cd;
   padding: 20px;
 }
 
