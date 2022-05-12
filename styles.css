@@ -9,10 +9,10 @@
   --off-white: #f0f0f0;
   --off-off-white: #d6d1cd;
 }
-#home, #resume, #skills, #projects, #contact{
+#skills, #projects{
   padding-left:25%;
   padding-right:25%;
-}
+} 
 
 /*Navigation Styles*/
 
@@ -43,12 +43,6 @@
   display: flex;
 }
 
-/* img {
-  width: 300px;
-  height: 300px;
-  aspect-ratio: 1;
-  object-fit: cover;
-} */
 #home h1 {
   font-family: "Playfair Display", serif;
   font-size: 30px;
@@ -60,16 +54,10 @@
   font-size: 200px;
   color: #dfdfdf;
   font-weight: 60px; 
-  margin-top:30px;
-  /* position: absolute; */
-  /* left: 0px;
-  top: 0px; */
+  margin-top: 60px;
   z-index: 1;
 }
-/* .btext {
-  color: black;
-  z-index: 1;
-} */
+
 
 h2 {
   font-family: "Playfair Display", serif;
@@ -122,7 +110,7 @@ a {
 #contact .btn {
   padding-top: 20px;
 }
-#home .container-fluid {
+#home .container {
   /* width: 50%; */
   border-radius: 5px;
   background-color: #f0f0f0;
@@ -202,6 +190,7 @@ ul.timeline > li:before {
 #resume .container {
   border-radius: 5px;
   background-color: #f0f0f0;
+  padding: 20px;
 }
 
 /*Skills Styling*/
@@ -400,13 +389,4 @@ footer {
     align-content: center;
   }
 }
-@media screen and (max-width: 769px) {
-  .col-md {
-    display: flex;
-  } 
-}
-  @media screen and (max-width:769px){
-  #resume-container {
-    width: fit-content;
-  }
-}
+
