@@ -9,7 +9,9 @@
   --off-white: #f0f0f0;
   --off-off-white: #d6d1cd;
 }
-
+#home, #resume, #skills, #projects, #testimonials, #contact{
+  padding:20%, 20%, 20%, 20%;
+}
 /*Navigation Styles*/
 
 .navbar-toggler {
@@ -53,14 +55,14 @@
 }
 .bold {
   font-family: "Playfair Display", serif;
-  font-size: 250px;
+  font-size: 200px;
   color: #d6d1cd;
   font-weight: 60px; 
   margin-top:30px;
-  /* position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1; */
+  /* position: absolute; */
+  /* left: 0px;
+  top: 0px; */
+  z-index: 1;
 }
 /* .btext {
   color: black;
@@ -296,7 +298,7 @@ ul.timeline > li:before {
     rgba(0, 0, 0, 0.242)
     ),
     url(./images/carousel3.jpg.jpg);
-  background-size: cover;
+  background-size:cover;
   background-attachment: fixed;
   background-position: center;
   font-family: "Playfair Display", serif;
