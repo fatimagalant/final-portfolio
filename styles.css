@@ -382,11 +382,11 @@ footer {
     align-content: center;
   }
 }
-@media screen and (max-width: 769px) {
+/* @media screen and (max-width: 769px) {
   .col-md {
     display: flex;
-  }
-  #resume-container {
+  } */
+/* #resume-container {
     width: fit-content;
   }
-}
+} */
