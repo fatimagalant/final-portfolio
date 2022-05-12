@@ -58,7 +58,6 @@
   z-index: 1;
 }
 
-
 h2 {
   font-family: "Playfair Display", serif;
 }
@@ -71,6 +70,7 @@ span .header {
   margin-bottom: 10px;
   color: #000000;
   font-weight: 600;
+  font-family: 'Karla', sans-serif;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -219,6 +219,7 @@ ul.timeline > li:before {
 .skills-container .card {
   box-shadow: 1px 1px 10px #6e8387;
   text-align: center;
+  padding:10%;
 }
 .card > i {
   font-size: 60px;
@@ -232,8 +233,9 @@ ul.timeline > li:before {
   text-align: center;
   border:none;
 }
-.soft-skills-card{
-  border-radius:8px;
+#skills .card-body{
+  border-radius:4px;
+  padding:10%;
 }
 /*Projects Styling*/
 #projects {
@@ -292,7 +294,6 @@ ul.timeline > li:before {
   background-size:cover;
   background-attachment: fixed;
   background-position: center;
-  font-family: "Playfair Display", serif;
 }
 
 div.container {
@@ -300,8 +301,8 @@ div.container {
   /* padding: 10px 20px; */
 }
 #testimonials img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   aspect-ratio: 1;
   object-fit: cover;
 }
@@ -389,4 +390,10 @@ footer {
     align-content: center;
   }
 }
-
+ @media screen and (max-width: 600px) {
+  .col,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+} 
