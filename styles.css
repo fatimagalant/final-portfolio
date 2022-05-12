@@ -382,6 +382,8 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 769px) {
   #home .img-fluid {
+    display: flex;
+    flex-direction: column;
     width: 400px;
     height: 400px;
   }
