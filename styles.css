@@ -5,6 +5,10 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+:root {
+  --off-white: #f0f0f0;
+  --off-off-white: #d6d1cd;
+}
 
 /*Navigation Styles*/
 
@@ -106,7 +110,7 @@ a {
 #home .container {
   width: 50%;
   border-radius: 5px;
-  background-color: #d8cfaf;
+  background-color: #f0f0f0;
   padding: 20px;
 }
 
@@ -332,12 +336,14 @@ input[type="submit"]:hover {
 #contact .container {
   width: 50%;
   border-radius: 5px;
-  background-color: #d6d1cd;
+  background-color: #f0f0f0;
   padding: 20px;
 }
 
 /*Footer Styling*/
-
+#footer {
+  padding: none;
+}
 /*Media Queries*/
 @media screen and (max-width: 768px) {
   .bold {
