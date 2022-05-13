@@ -105,6 +105,14 @@ a {
 #contact .btn {
   padding-top: 20px;
 }
+.btn:hover {
+  color: #f0f0f0;
+  background-color: #000;
+}
+#contactbtn:hover {
+  background-color: #ffffff;
+  color: #000;
+}
 #home .container {
   /* width: 50%; */
   border-radius: 5px;
@@ -113,6 +121,10 @@ a {
 }
 #home img {
   width: 50%;
+}
+#contactbtn {
+  color: #f0f0f0;
+  background-color: #000;
 }
 /*Resume Styling*/
 #resume {
@@ -280,7 +292,15 @@ ul.timeline > li:before {
 }
 
 #projects .img-fluid:hover {
-  opacity: 0.5;
+  opacity: 0.4;
+}
+#projects a:hover {
+  background-color: #f0f0f0;
+  color: #000;
+  border: none;
+}
+#close {
+  border: none;
 }
 /*Testimoials Styling*/
 #testimonials {
