@@ -5,10 +5,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-html,
-body {
-  overflow-x: hidden;
-}
 :root {
   --off-white: #f0f0f0;
   --off-off-white: #d6d1cd;
@@ -375,6 +371,7 @@ input[type="submit"]:hover {
 footer {
   text-align: center;
   color: white;
+  position: static;
 }
 /*Media Queries*/
 @media screen and (max-width: 1026px) {
