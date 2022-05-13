@@ -9,12 +9,6 @@
   --off-white: #f0f0f0;
   --off-off-white: #d6d1cd;
 }
-#skills,
-#projects {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
 /*Navigation Styles*/
 
 .navbar-toggler {
@@ -216,7 +210,6 @@ ul.timeline > li:before {
 
 #skills h2 {
   margin-bottom: 30px;
-  border-bottom: 3px solid white;
   width: fit-content;
   margin-inline: auto;
 }
@@ -234,7 +227,7 @@ ul.timeline > li:before {
 }
 .soft-skills-container .card {
   box-shadow: 1px 1px 10px #6e8387;
-  gap: 30px;
+  gap: 20px;
   text-align: center;
   border: none;
 }
@@ -278,7 +271,7 @@ ul.timeline > li:before {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: end;
