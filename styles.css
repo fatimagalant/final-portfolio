@@ -9,10 +9,11 @@
   --off-white: #f0f0f0;
   --off-off-white: #d6d1cd;
 }
-#skills, #projects{
-  margin-left:15%;
-  margin-right:15%;
-} 
+#skills,
+#projects {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
 /*Navigation Styles*/
 
@@ -53,7 +54,7 @@
   font-family: "Playfair Display", serif;
   font-size: 200px;
   color: #dfdfdf;
-  font-weight: 60px; 
+  font-weight: 60px;
   margin-top: 60px;
   z-index: 1;
 }
@@ -70,7 +71,7 @@ span .header {
   margin-bottom: 10px;
   color: #000000;
   font-weight: 600;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -92,7 +93,7 @@ span .header {
   -webkit-transform-origin: left top 0;
   transform-origin: left top 0;
   position: relative;
-  margin:5px;
+  margin: 5px;
 }
 .rotate .heading:after {
   position: absolute;
@@ -101,7 +102,7 @@ span .header {
   background: #000;
   width: 40px;
   height: 1px;
-  margin:2px;
+  margin: 2px;
 }
 
 a {
@@ -116,7 +117,9 @@ a {
   background-color: #f0f0f0;
   padding: 20px;
 }
-
+#home img {
+  width: 50%;
+}
 /*Resume Styling*/
 #resume {
   background-color: white;
@@ -131,10 +134,9 @@ a {
   position: relative;
   font-size: 14px;
   padding-right: 20px;
-  padding-left:20px;
+  padding-left: 20px;
   text-transform: uppercase;
   transform: rotate(90deg);
- 
 }
 .rotate .heading {
   font-family: "Karla", Arial, sans-serif;
@@ -154,7 +156,7 @@ a {
   background: #000;
   width: 40px;
   height: 1px;
-  margin:2px;
+  margin: 2px;
 }
 ul.timeline {
   list-style-type: none;
@@ -234,11 +236,11 @@ ul.timeline > li:before {
   box-shadow: 1px 1px 10px #6e8387;
   gap: 30px;
   text-align: center;
-  border:none;
+  border: none;
 }
-#skills .card-body{
-  border-radius:4px;
-  padding:10%;
+#skills .card-body {
+  border-radius: 4px;
+  padding: 10%;
 }
 /*Projects Styling*/
 #projects {
@@ -289,12 +291,9 @@ ul.timeline > li:before {
 }
 /*Testimoials Styling*/
 #testimonials {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.242),
-    rgba(0, 0, 0, 0.242)
-    ),
+  background: linear-gradient(rgba(0, 0, 0, 0.242), rgba(0, 0, 0, 0.242)),
     url(./images/carousel3.jpg.jpg);
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
@@ -392,10 +391,10 @@ footer {
     align-content: center;
   }
 }
- @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .col,
   input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
-} 
+}
